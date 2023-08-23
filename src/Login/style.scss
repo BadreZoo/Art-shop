@@ -1,0 +1,25 @@
+.container-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+}
+.title-default-login{
+    margin-bottom: 23px;
+    text-align: left;
+  
+}
+
+.ui.form input:not([type]){
+    width:29rem;
+}
+.ui.button{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
