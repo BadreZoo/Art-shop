@@ -2,7 +2,7 @@ import axios from "axios";
 import { accountService } from "./account.service";
 
 const axiosInstanceProfile = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "postgres://szyepgtm:zY5fmfOAY6F3s3XpEkZBHtsCZNK2316P@trumpet.db.elephantsql.com/szyepgtm",
 });
 
 // Intercepteur pour la mise en place du token dans la requête
