@@ -67,13 +67,15 @@ const Register = () => {
                 placeholder='Email'
                 onChange={(e) => setData({ ...data, email: e.target.value })}
               />
-              <Form.Input
-                fluid
-                value={data.password}
-                placeholder='Mot de passe'
-                type={showPassword ? 'text' : 'password'}
-                onChange={(e) => setData({ ...data, password: e.target.value })}
-              />
+             <Form.Input
+  fluid
+  value={data.password}
+  placeholder='Mot de passe'
+  type={showPassword ? 'text' : 'password'}
+  onChange={(e) => setData({ ...data, password: e.target.value })}
+  autocomplete="current-password" // Ajout de l'attribut autocomplete
+/>
+
             </Form.Group>
             <Form.Dropdown
               selection
