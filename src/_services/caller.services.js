@@ -2,7 +2,7 @@ import axios from "axios";
 import { accountService } from "./account.service";
 
 const axiosInstanceProfile = axios.create({
-  baseURL: "postgres://szyepgtm:zY5fmfOAY6F3s3XpEkZBHtsCZNK2316P@trumpet.db.elephantsql.com/szyepgtm",
+  baseURL: "https://artshopback.up.railway.app",
 });
 
 // Intercepteur pour la mise en place du token dans la requête
